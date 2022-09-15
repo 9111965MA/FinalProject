@@ -1,0 +1,4 @@
+{% for employee in employees %}
+<h3>{{employee}}</h3><hr>
+<a href="{{url_for('RetrieveEmployee',id=employee.employee_id)}}">Click to Expand</a>
+{% endfor %}
