@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "python3 app.py"
+                sh "python3 Final_Project_DivOps/app.py"
+                sh "pip3 install -r requirement.txt"
             }
         }
