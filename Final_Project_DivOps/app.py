@@ -1,4 +1,4 @@
-from flask import Flask , redirect ,render_template, request, 
+from flask import Flask , redirect ,render_template, request 
 from flask_sqlalchemy import SQLAlchemy
  
 db =SQLAlchemy()
